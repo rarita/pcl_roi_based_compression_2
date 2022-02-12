@@ -9,7 +9,10 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/io/ply_io.h>
 #include <pcl/point_types.h>
-// KDE
-#include "kernel-density/kde.hpp"
+// KDE via mlpack
+#include <mlpack/core.hpp>
+#include <mlpack/methods/kde/kde.hpp>
+// ARMA
+#include <armadillo>
 
 // TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.
