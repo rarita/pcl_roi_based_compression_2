@@ -14,5 +14,8 @@
 #include <mlpack/methods/kde/kde.hpp>
 // ARMA
 #include <armadillo>
+// libnoise
+#include <noise/noise.h>
+#include <noise/noiseutils.h>
 
 // TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.
